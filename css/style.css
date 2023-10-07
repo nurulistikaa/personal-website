@@ -429,6 +429,68 @@ form .send-btn:hover{
   box-shadow: 0 0 20px var(--main-color);
 }
 
+footer{
+  background: var(--main-color);
+  padding-top: 5px;
+  padding-bottom: 0;
+  
+}
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px;
+  bottom: 0;
+}
+
+.footer-content h3{
+  font-size: 27px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 2rem;
+  text-align: center;
+  color: var(--second-bg-color);
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 25px;
+  font-size: 16px;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-content .socials a{
+  text-decoration: none;
+}
+
+.footer-content .socials a i{
+  color: var(--second-bg-color);
+  margin: 10px;
+  font-size: 1.2rem;
+  border: 1px solid var(--second-bg-color);
+  border-radius: 50%;  
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
