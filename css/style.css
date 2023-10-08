@@ -553,6 +553,206 @@ footer{
 }
 
 
+/* About Me Pages */
+.title {
+  margin-top: 10px;
+  margin-bottom: -160px;
+}
+
+.heading {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-me-img img {
+  max-width: 450px;
+  height: auto;
+  width: 90%;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
+.about-me {
+  background: var(--second-bg-color);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about-me-text {
+  margin-right: 70px;
+  
+}
+
+.about-me-text h2 {
+  font-size: 30px;
+  margin: 10px 0px 10px;
+  line-height: 1.2;
+}
+
+.about-me-text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+  line-height: 1.7;
+  margin: 10px 0 10px;
+}
+
+.about-me-text p {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
+/* About Me Pages */
+.education-content {
+  background: var(--bg-color);
+  margin-top: 10px;
+}
+
+.education-content .row{
+  display: flex;
+  border-radius: 5px;
+}
+
+.education-content .title{
+  color: var(--text-color);
+  margin-top: -20px;
+}
+
+.education-content .row .education,
+.education-content .row .internship
+{
+  color: var(--text-color);
+  flex:0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+} 
+
+.education-content  h3.title{
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.education-content .row.timeline-box{
+  flex:0 0 100%;
+  max-width: 100%;  
+}
+.education-content .row .timeline{
+  padding: 30px 15px;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.education-content .row .timeline-item{
+  position:relative;
+  padding-left: 37px;
+  padding-bottom: 50px; 
+}
+.education-content .row  .internship .timeline-item{
+  position:relative;
+  padding-left: 37px;
+  padding-bottom: 30px; 
+}
+.education-content .row .timeline-item:last-child{
+  padding-bottom: 0;
+}
+.education-content .row .timeline-item::before{
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
+  background-color: var(--main-color);  
+}
+
+.education-content .row .circle-dot{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+}
+.education-content .row .timeline-title  {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.education-content .row .internship .timeline-title  {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.education-content .row .timeline-text{
+  line-height: 23px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.skills {
+  background-color: var(--second-bg-color);
+  margin-top: -110px;
+  margin-bottom: 50px;
+}
+
+.skills .box-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem; 
+  padding: 5rem;
+  margin-left: 60px;
+}
+
+.skills .box {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1px;
+  width: 75%; 
+}
+
+.skills .box-container .box:hover {
+  background: #fff;
+}
+
+.skills .box-container .box h3 {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 450;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skills .box-container .box img {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 65%;
+}
+
+.skill {
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+
+
+
+
+
 
 
 
