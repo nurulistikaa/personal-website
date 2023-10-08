@@ -217,6 +217,7 @@ header.sticky a {
 
 .services {
   background: var(--second-bg-color);
+  margin-bottom: 40px;
 }
 
 .services .main-text h2 {
@@ -289,87 +290,77 @@ header.sticky a {
 
 .portfolio {
   background: var(--bg-color);
-  margin-top: 50px;
 }
 
-.portfolio p {
-  color: var(--text-color);
-  font-size: 22px;
-}
-
-.portfolio h2 {
+.center-text h2{
   font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: -10px;
 }
 
-.portfolio-content {
+.Portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center;
   gap: 2.5rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.row img{
+  height: auto;
+  width: 100%;
+  border-radius: 28px;
+  margin-bottom: 1.4rem;
 }
 
 .row {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  cursor: pointer;
+  background: var(--second-bg-color);
+  border-radius: 28px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px var(--main-color);
+  padding: 20px;
+  transition: all .50s ease;
 }
 
-.row img {
-  width: 100%;
-  border-radius: 25px;
-  display: block;
-  transition: transform 0.5s;
-}
-
-.layer {
-  width: 100%;
-  height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), #2F539B);
-  position: absolute;
-  border: 8px;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0 40px;
-}
-
-.layer h5 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.layer p {
-  color: var(--second-color);
-  font-size: 1rem;
-  line-height: 1.8;
-}
-
-.layer i {
-  color: var(--main-color);
-  margin-top: 20px;
-  font-size: 20px;
-  background: var(--text-color);
-  width: 60px;
-  height: 60px;
+.main-row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  margin-top: -0.5rem;
+}
+
+.row h5 {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.row i {
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 17px;
   border-radius: 50%;
-}
-.row:hover img {
-  transform: scale(1.1);
+  color: var(--second-bg-color);
+  background: var(--main-color);
 }
 
-.row:hover .layer {
-  height: 100%;
+.row h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  line-height: 1.4;
+}
+
+.row:hover {
+  border: 1px solid var(--main-color);
+  transform: translateY(-5px) scale(1.03);
+  cursor: pointer;
 }
 
 .contact h2 {
@@ -389,6 +380,9 @@ header.sticky a {
   width: 600px;
 }
 
+.contact {
+  margin-top: -10px;
+}
 
 form input,
 form textarea {
